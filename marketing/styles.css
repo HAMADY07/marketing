@@ -1,0 +1,136 @@
+body {
+    background-color: #000000;
+    /* Fond noir */
+    color: #ffffff;
+    /* Texte blanc */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #999;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #999;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 98.5%;
+    bottom: 0;
+    margin-top: 8.5rem;
+}
+
+.article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.article {
+    background-color: #222222;
+    padding: 1rem;
+    border: 1px solid #444444;
+    flex: 1 1 calc(33.333% - 2rem);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-form {
+    background-color: #504242;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 0.5rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    color: #1f1b1b;
+}
+
+#contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+}
+
+.logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 10s ease-in-out;
+}
+.nav-link{
+font-weight: bold;
+ text-decoration: underline;
+}
+.nav-link:hover{
+    color: #344434;
+}
+input{
+    padding: 8px;
+    width: 13rem;
+    margin: 5px;
+}
+form{
+    transform: translateX(3rem);
+}
+.contact{
+    margin-left: 2rem;
+}
